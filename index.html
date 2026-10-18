@@ -1,3 +1,26 @@
-<script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<tv-ticker-tape symbols="FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,NASDAQ:AAPL,NASDAQ:NVDA,NASDAQ:TSLA,NASDAQ:META,OANDA:XAUUSD,BITSTAMP:BTCUSD,NASDAQ:NDX" item-size="compact" theme="dark"></tv-ticker-tape>
+  <style>
+    html, body {
+      background-color: #191919;
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+    }
+  </style>
+
+  <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
+</head>
+
+<body>
+  <tv-ticker-tape
+    symbols="FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,NASDAQ:AAPL,NASDAQ:NVDA,NASDAQ:TSLA,NASDAQ:META,OANDA:XAUUSD,BITSTAMP:BTCUSD,NASDAQ:NDX"
+    item-size="compact"
+    theme="dark">
+  </tv-ticker-tape>
+</body>
+</html>
